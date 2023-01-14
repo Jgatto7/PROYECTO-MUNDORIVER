@@ -54,12 +54,12 @@ h5{
     font-size:20px;
     margin: auto;
 }
-.ultimasnoticias{
+.UltimasNoticias{
     color: rgba(182, 18, 18, 0.945);
     font-size: 200%;
     background: linear-gradient(to left top, red, black, white)
 }
-.riverpretemporada{
+.RiverPretemporada{
     color: rgba(182, 18, 18, 0.945);
     font-size: 200%;
     background: linear-gradient(to left top, red, black, white)
@@ -142,7 +142,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.infoactualidad{
+.InfoActualidad{
     width: 80%;
 }
 
@@ -151,10 +151,10 @@ h3{
     background-color: rgba(92, 92, 87, 0.822);
 }
 
-.parrafoactualidad{
+.ParrafoActualidad{
     width: 80%;
 }
-.parrafoactualidad img{
+.ParrafoActualidad img{
     margin-bottom: 1%;
     margin-top: 1%;
 }
@@ -194,7 +194,7 @@ h3{
 }
 
 
-.datospersona{
+.DatosPersona{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -204,7 +204,7 @@ h3{
     background: linear-gradient(to left top, red, black, white)
 }
 
-.nombrecontacto{
+.NombreContacto{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -212,7 +212,7 @@ h3{
     color: rgba(4, 4, 4, 0.945);
     font-size: 200%;
 }
-.mailcontacto{
+.MailContacto{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -220,7 +220,7 @@ h3{
     color: rgba(4, 4, 4, 0.945);
     font-size: 200%;
 }
-.contraseñacontacto{
+.ContraseñaContacto{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -228,7 +228,7 @@ h3{
     color: rgba(4, 4, 4, 0.945);
     font-size: 200%;
 }
-.enviarconsulta{
+.EnviarConsulta{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -236,7 +236,7 @@ h3{
     color: rgba(4, 4, 4, 0.945);
     font-size: 60%;
 }
-.resetcontacto{
+.ResetContacto{
     color: rgba(5, 5, 5, 0.952);
     text-align: center;
     font-size: 30px;
@@ -270,7 +270,7 @@ h3{
     font-size: 150%;
 }
 
-.pagcontactos{
+.PagContactos{
     display: flex;
     justify-content: space-evenly;
 }
@@ -300,7 +300,7 @@ h3{
 
 
 
-.demichelisfoto{
+.DemichelisFoto{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -309,33 +309,34 @@ h3{
     border-radius: 10px;
 }
 
-.infodemichelis{
+.InfoDemichelis{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.FotoPretemporada{
+    width: 350px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.InfoPretemporada{
     text-align: center;
     font-size: 20px;
     line-height: 40px;
 }
-.fotopretemporada{
-    width: 350px;
-    height: 250px;
-    opacity: 0,7;
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-}
 
-.infopretemporada{
-    text-align: center;
-    font-size: 20px;
-    line-height: 40px;
-}
-
-.taglealcorta{
+.TagleAlcorta{
     text-align: center;
     font-size: large;
     line-height: 40px;
 }
 
-.estadio1{
+.Estadio1{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -343,12 +344,12 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.mundial78{
+.Mundial78{
     text-align: center;
     font-size: large;
     line-height: 40px;
 }
-.estadio2{
+.Estadio2{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -356,12 +357,12 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.masmonumental{
+.MasMonumental{
     text-align: center;
     font-size: large;
     line-height: 40px;
 }
-.estadio3{
+.Estadio3{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -369,18 +370,18 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.titulomonumental{
+.TituloMonumental{
     text-align: center;
     background: linear-gradient(to left top, red, black, white)
 
 }
-.infokrane{
+.InfoKrane{
     text-align: center;
     justify-content: center;
     font-size: large;
     line-height: 50px;
 }
-.fotokrane{
+.FotoKrane{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -388,13 +389,13 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.infonacho{
+.InfoNacho{
     text-align: center;
     justify-content: center;
     font-size: large;
     line-height: 50px;
 }
-.fotonacho{
+.FotoNacho{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -402,13 +403,13 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.infoelias{
+.InfoElias{
     text-align: center;
     justify-content: center;
     font-size: large;
     line-height: 50px;
 }
-.fotoelias{
+.FotoElias{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -416,13 +417,13 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.infojavi{
+.InfoJavi{
     text-align: center;
     justify-content: center;
     font-size: large;
     line-height: 50px;
 }
-.fotojavi{
+.FotoJavi{
     width: 350px;
     height: 250px;
     opacity: 0,7;
@@ -455,13 +456,13 @@ h3{
     border-radius: 10px;
 }
 
-.titulodemichelis{
+.TituloDemichelis{
     color: rgba(182, 18, 18, 0.945);
     font-size: 200%;
     background: linear-gradient(to left top, red, black, white)
 }
 
-.itemsgrid{
+.ItemsGrid{
     display: grid;
     width: 100%;
     height: 100vh;
@@ -489,7 +490,7 @@ h3{
     border-radius: 10px;
     background: linear-gradient(to left top, lightblue, white, red)
 }
-.fotomontiel{
+.FotoMontiel{
     grid-area: item3;
     width: 400px;
     height: 250px;
@@ -498,7 +499,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.montielriver{
+.MontielRiver{
     grid-area: item1;
     width: 400px;
     height: 250px;
@@ -518,7 +519,7 @@ h3{
     background: linear-gradient(to left top, lightblue, white, red)
 
 }
-.palariver{
+.PalaRiver{
     grid-area: item4 ;
     width: 400px;
     height: 250px;
@@ -527,7 +528,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.fotopala{
+.FotoPala{
     grid-area: item6;
     width: 400px;
     height: 250px;
@@ -547,7 +548,7 @@ h3{
     background: linear-gradient(to left top, lightblue, white, red)
 
 }
-.enzoriver{
+.EnzoRiver{
     grid-area: item7 ;
     width: 400px;
     height: 250px;
@@ -556,7 +557,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.fotoenzo{
+.FotoEnzo{
     grid-area: item9;
     width: 400px;
     height: 250px;
@@ -576,7 +577,7 @@ h3{
     background: linear-gradient(to left top, lightblue, white, red)
 
 }
-.juliriver{
+.JuliRiver{
     grid-area: item10 ;
     width: 400px;
     height: 250px;
@@ -585,7 +586,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.fotojuli{
+.FotoJuli{
     grid-area: item12;
     width: 400px;
     height: 250px;
@@ -605,7 +606,7 @@ h3{
     background: linear-gradient(to left top, lightblue, white, red)
 
 }
-.guidoriver{
+.GuidoRiver{
     grid-area: item13;
     width: 400px;
     height: 250px;
@@ -614,7 +615,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.fotoguido{
+.FotoGuido{
     grid-area: item15;
     width: 400px;
     height: 250px;
@@ -636,7 +637,7 @@ h3{
     background: linear-gradient(to left top, lightblue, white, red)
 
 }
-.pezzellariver{
+.PezzellaRiver{
     grid-area: item16;
     width: 400px;
     height: 250px;
@@ -645,7 +646,7 @@ h3{
     margin: auto;
     border-radius: 10px;
 }
-.fotopezzella{
+.FotoPezzella{
     grid-area: item18;
     width: 400px;
     height: 250px;
@@ -655,7 +656,7 @@ h3{
     border-radius: 10px;
 }
 
-.campeonesriver{
+.CampeonesRiver{
     text-align: center;
     background: linear-gradient(to left top, red, black, white)
 }
@@ -676,19 +677,22 @@ h3{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 160%;
-    background: linear-gradient(to left top, lightblue, white, red)
+    background: linear-gradient(to left top, lightblue, white, red);
+    margin-bottom: 1%;
 }
 .porteros{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 120%;
     line-height: 30px;
+    margin-bottom: 1%;
 }
 .defensa{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 160%;
-    background: linear-gradient(to left top, lightblue, white, red)
+    background: linear-gradient(to left top, lightblue, white, red);
+    margin-bottom: 1%;
 }
 
 .defensores{
@@ -696,30 +700,36 @@ h3{
     text-align:left;
     font-size: 120%;
     line-height: 30px;
+    margin-bottom: 1%;
 }
 
 .volante{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 160%;
-    background: linear-gradient(to left top, lightblue, white, red)
+    background: linear-gradient(to left top, lightblue, white, red);
+    margin-bottom: 1%;
 }
 .mediocampistas{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 120%;
     line-height: 30px;
+    margin-bottom: 1%;
 }
 
 .delantero{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 160%;
-    background: linear-gradient(to left top, lightblue, white, red)
+    background: linear-gradient(to left top, lightblue, white, red);
+    margin-bottom: 1%;
 }
 .atacantes{
     color: rgba(2, 2, 2, 0.945);
     text-align:left;
     font-size: 120%;
     line-height: 30px;
+    margin-bottom: 1%;
 }
+

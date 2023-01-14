@@ -27,37 +27,43 @@
     </header>
     <main>
         <form action="" method="post">
-            <fieldset class="pagcontactos">
-                <legend class="datospersona">Datos de la persona</legend>
-                <label class="nombrecontacto" for="nombre">
-                    <span>Nombre:</span>  
-                    <input type="text" name="" id="nombre" placeholder="Nombre del usuario" required> 
-                </label>
-                <label class="mailcontacto" for="e-mail">
-                    <span>Mail:</span>
-                    <input type="email"  id="e-mail" placeholder="Inserte su mail">
-                </label>
-                <label class="contraseñacontacto" for="contraseña">
-                    <span>Contraseña</span>
-                    <input type="password" name="" id="contraseña" placeholder="Ingresar contraseña">
-                    <label">
-                <label class="nacimientocontacto" for="nacimiento">
-                    <span>Nacimiento</span>
-                    <input type="date" name="" id="Fecha de Nacimiento">
-                </label>
+            <fieldset class="PagContactos">
+                <div>
+                    <legend class="DatosPersona">Datos de la persona</legend>
+                    <section class="InformacionPersonas">
+                        <label class="NombreContacto" for="nombre">
+                            <span>Nombre:</span>  
+                            <input type="text" name="" id="nombre" placeholder="Nombre del usuario" required> 
+                        </label>
+                        <label class="MailContacto" for="e-mail">
+                            <span>Mail:</span>
+                            <input type="email"  id="e-mail" placeholder="Inserte su mail">
+                        </label>
+                        <label class="ContraseñaContacto" for="contraseña">
+                            <span>Contraseña</span>
+                            <input type="password" name="" id="contraseña" placeholder="Ingresar contraseña">
+                            <label">
+                        <label class="NacimientoContacto" for="nacimiento">
+                            <span>Nacimiento</span>
+                            <input type="date" name="" id="Fecha de Nacimiento">
+                        </label>
+        
+                        <input class="EnviarConsulta" type="submit">
+                        <input class="ResetContacto" type="Reset" value="Reset">
+                    </section>
+                    
+    
 
-                <input class="enviarconsulta" type="submit">
-                <input class="resetcontacto" type="Reset" value="Reset">
 
-            </fieldset>
-            <fieldset class="pagcontacto2">
-                <legend class="aso">ASOCIATE</legend>
-                <label class="adherirme1" for="small">Adherirme sin recibir mensajes</label>
-                    <input type="radio" id="small" name="talla" value="small">
-                <label class="adherirme2" for="large">Adherirme y recibir más información</label>
-                    <input type="radio" id="large" name="talla" value="large">
-                <label class="aceptar" for="">Acepta terminos y condiciones</label>
-                <input type="checkbox" name="" id="acepta" name="acepta" value="1">
+                <fieldset class="pagcontacto2">
+                    <legend class="aso">ASOCIATE</legend>
+                    <label class="adherirme1" for="small">Adherirme sin recibir mensajes</label>
+                        <input type="radio" id="small" name="talla" value="small">
+                    <label class="adherirme2" for="large">Adherirme y recibir más información</label>
+                        <input type="radio" id="large" name="talla" value="large">
+                    <label class="aceptar" for="">Acepta terminos y condiciones</label>
+                    <input type="checkbox" name="" id="acepta" name="acepta" value="1">  
+                </div>
             </fieldset>
         </form>
     </main>
