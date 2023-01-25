@@ -1,0 +1,538 @@
+.mdp {
+	color: rgba(182, 18, 18, 0.945);
+	font-size: 200%;
+	background: linear-gradient(to left top, red, black, white);
+}
+.titulo1 {
+	font-size: 25px;
+}
+.titulo2 {
+	font-size: 25px;
+}
+.titulo3 {
+	font-size: 25px;
+}
+.titulo4 {
+	font-size: 25px;
+}
+
+.contactanos{
+    color: rgba(161, 50, 50, 0.952);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.DatosPersona{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(243, 235, 235, 0.945);
+    font-size: 200%;
+    background: linear-gradient(to left top, red, black, white)
+}
+
+.NombreContacto{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 200%;
+}
+.MailContacto{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 200%;
+}
+.ContraseñaContacto{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 200%;
+}
+.EnviarConsulta{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 60%;
+}
+.ResetContacto{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 60%;
+}
+
+.adherirme1{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 150%;
+}
+.adherirme2{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 150%;
+}
+.aceptar{
+    color: rgba(5, 5, 5, 0.952);
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: rgba(4, 4, 4, 0.945);
+    font-size: 150%;
+}
+
+.PagContactos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pagcontacto2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ItemsGrid{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+    padding: 3%;
+    grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9"
+    "item10 item11 item12"
+    "item13 item14 item15"
+    "item16 item17 item18"
+
+}
+
+.UN1{
+    grid-area: item2;
+    background-color: rgb(205, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+}
+.FotoMontiel{
+    grid-area: item3;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.MontielRiver{
+    grid-area: item1;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.UN2{
+    grid-area: item5;
+    background-color: rgb(206, 177, 177);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+
+}
+.PalaRiver{
+    grid-area: item4 ;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.FotoPala{
+    grid-area: item6;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.UN3{
+    grid-area: item8;
+    background-color: rgb(205, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+
+}
+.EnzoRiver{
+    grid-area: item7 ;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.FotoEnzo{
+    grid-area: item9;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.UN4{
+    grid-area: item11;
+    background-color: rgb(206, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+
+}
+.JuliRiver{
+    grid-area: item10 ;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.FotoJuli{
+    grid-area: item12;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.UN5{
+    grid-area: item14;
+    background-color: rgb(206, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+
+}
+.GuidoRiver{
+    grid-area: item13;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.FotoGuido{
+    grid-area: item15;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.UN6{
+    grid-area: item17;
+    background-color: rgb(206, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, lightblue, white, red)
+
+}
+.PezzellaRiver{
+    grid-area: item16;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.FotoPezzella{
+    grid-area: item18;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.CampeonesRiver{
+    text-align: center;
+    background: linear-gradient(to left top, red, black, white)
+}
+.ItemsGrid2{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 50px;
+    justify-items: center;
+    padding: 3%;
+    grid-template-areas:
+    "item1 item2"
+    "item3 item4"
+    "item5 item6"
+}
+
+.UN01{
+    grid-area: item2;
+    background-color: rgb(205, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, rgb(0, 0, 0), white, red)
+}
+
+.Estadio1{
+    grid-area: item1;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.UN02{
+    grid-area: item4;
+    background-color: rgb(205, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, rgb(0, 0, 0), white, red)
+}
+.Estadio2{
+    grid-area: item3;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.UN03{
+    grid-area: item6;
+    background-color: rgb(205, 176, 176);
+    text-align:center;
+    font-size: 130%;
+    line-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left top, rgb(0, 0, 0), white, red)
+}
+.Estadio3{
+    grid-area: item5;
+    width: 400px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.TituloMonumental{
+    text-align: center;
+    background: linear-gradient(to left top, red, black, white)
+}
+.plantel {
+	color: rgba(182, 18, 18, 0.945);
+	text-align: center;
+	font-size: 300%;
+	background: linear-gradient(to left top, red, black, white);
+}
+.plantilla {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 200%;
+}
+.arquero {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 160%;
+	background: linear-gradient(to left top, lightblue, white, red);
+	margin-bottom: 1%;
+}
+.porteros {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 120%;
+	line-height: 30px;
+	margin-bottom: 1%;
+}
+.defensa {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 160%;
+	background: linear-gradient(to left top, lightblue, white, red);
+	margin-bottom: 1%;
+}
+.defensores {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 120%;
+	line-height: 30px;
+	margin-bottom: 1%;
+}
+.volante {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 160%;
+	background: linear-gradient(to left top, lightblue, white, red);
+	margin-bottom: 1%;
+}
+.mediocampistas {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 120%;
+	line-height: 30px;
+	margin-bottom: 1%;
+}
+.delantero {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 160%;
+	background: linear-gradient(to left top, lightblue, white, red);
+	margin-bottom: 1%;
+}
+.atacantes {
+	color: rgba(2, 2, 2, 0.945);
+	text-align: left;
+	font-size: 120%;
+	line-height: 30px;
+	margin-bottom: 1%;
+}
+.TituloDemichelis {
+	color: rgba(182, 18, 18, 0.945);
+	font-size: 200%;
+	background: linear-gradient(to left top, red, black, white);
+}
+.DemichelisFoto {
+	width: 350px;
+	height: 250px;
+	opacity: 0,7;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.InfoDemichelis {
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+.FotoPretemporada {
+	width: 350px;
+	height: 250px;
+	opacity: 0,7;
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+}
+.InfoPretemporada {
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+.mainIndex {
+	background-color: rgba(92, 92, 87, 0.822);
+}
+.InfoKrane{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    line-height: 50px;
+}
+.FotoKrane{
+    width: 350px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.InfoNacho{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    line-height: 50px;
+}
+.FotoNacho{
+    width: 350px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.InfoElias{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    line-height: 50px;
+}
+.FotoElias{
+    width: 350px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.InfoJavi{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    line-height: 50px;
+}
+.FotoJavi{
+    width: 350px;
+    height: 250px;
+    opacity: 0,7;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}

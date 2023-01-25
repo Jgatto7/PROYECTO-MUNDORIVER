@@ -1,0 +1,29 @@
+header {
+	background-color: rgb(66, 66, 59);
+	list-style: none;
+	text-decoration: none;
+	font-size: 50px;
+	text-align: center;
+}
+
+.navBar {
+	li {
+		a {
+			color: rgba(248, 248, 245, 0.884);
+			text-decoration: none;
+			margin: 5px;
+			&:hover {
+				color: rgba(182, 18, 18, 0.945);
+			}
+		}
+		text-align: center;
+		font-size: 23px;
+		line-height: 80px;
+		list-style: none;
+	}
+}
+.titulo {
+	h1 {
+		text-align: center;
+	}
+}
