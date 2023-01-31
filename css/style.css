@@ -7,6 +7,18 @@
   padding: 0%;
 }
 
+footer {
+  width: 100%;
+  background-color: rgb(66, 66, 59);
+}
+footer div {
+  text-align: center;
+}
+footer div a img {
+  height: 25px;
+  width: 25px;
+}
+
 h1 {
   color: rgba(212, 46, 16, 0.952);
   font-size: 40px;
@@ -515,10 +527,15 @@ footer div a img {
   background: linear-gradient(to left top, red, black, white);
 }
 
+.mainContactos {
+  height: 64vh;
+  padding-top: 3%;
+}
+
 .ItemsGrid {
   display: grid;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 50px;
@@ -787,6 +804,18 @@ footer div a img {
   font-size: 120%;
   line-height: 30px;
   margin-bottom: 1%;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(66, 66, 59);
+}
+footer div {
+  text-align: center;
+}
+footer div a img {
+  height: 25px;
+  width: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
