@@ -297,6 +297,11 @@ footer {
 	font-size: 20px;
 	line-height: 40px;
 }
+
+.MainFotos{
+	height: 68em;
+}
+
 .ItemsGrid2 {
 	display: grid;
 	width: 100%;
@@ -307,6 +312,8 @@ footer {
 	justify-items: center;
 	padding: 3%;
 	grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .UN01 {
 	grid-area: item2;
@@ -466,6 +473,8 @@ footer {
 	justify-items: center;
 	padding: 3%;
 	grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9" "item10 item11 item12" "item13 item14 item15" "item16 item17 item18";
+	padding-right: 0px;
+	padding-left: 0px;
 }
 .UN1 {
 	grid-area: item2;

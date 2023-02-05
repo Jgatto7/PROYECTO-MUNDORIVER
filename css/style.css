@@ -350,6 +350,10 @@ footer div a img {
   line-height: 40px;
 }
 
+.MainFotos {
+  height: 68em;
+}
+
 .ItemsGrid2 {
   display: grid;
   width: 100%;
@@ -360,6 +364,8 @@ footer div a img {
   justify-items: center;
   padding: 3%;
   grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .UN01 {
@@ -542,6 +548,8 @@ footer div a img {
   justify-items: center;
   padding: 3%;
   grid-template-areas: "item1 item2 item3" "item4 item5 item6" "item7 item8 item9" "item10 item11 item12" "item13 item14 item15" "item16 item17 item18";
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .UN1 {
@@ -816,6 +824,107 @@ footer div {
 footer div a img {
   height: 25px;
   width: 25px;
+}
+
+@media (max-width: 576px) {
+  .parrafos div h2 {
+    font-size: 150%;
+  }
+  .h1ActualidadMobile {
+    font-size: 200%;
+    text-align: center;
+  }
+  .InfoActualidad img {
+    width: 80%;
+    height: 80%;
+  }
+  .ItemsGrid2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 2%;
+  }
+  .ItemsGrid2 div {
+    width: 80%;
+  }
+  .ItemsGrid2 img {
+    width: 80%;
+  }
+  .MainFotos {
+    height: 93em;
+    width: auto;
+  }
+  .DemichelisFoto {
+    width: 95%;
+    height: 95%;
+  }
+  .FotoPretemporada {
+    width: 95%;
+    height: 95%;
+  }
+  .ItemsGrid {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 2%;
+  }
+  .ItemsGrid div {
+    width: 75%;
+    font-size: 17px;
+  }
+  .ItemsGrid img {
+    width: 75%;
+    height: 75%;
+  }
+}
+@media (max-width: 480px) {
+  .parrafos div h2 {
+    font-size: 150%;
+  }
+  .h1ActualidadMobile {
+    font-size: 200%;
+    text-align: center;
+  }
+  .InfoActualidad img {
+    width: 80%;
+    height: 80%;
+  }
+  .ItemsGrid2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .ItemsGrid2 div {
+    width: 80%;
+  }
+  .ItemsGrid2 img {
+    width: 80%;
+  }
+  .MainFotos {
+    height: 93em;
+    width: auto;
+  }
+  .DemichelisFoto {
+    width: 95%;
+    height: 95%;
+  }
+  .FotoPretemporada {
+    width: 95%;
+    height: 95%;
+  }
+  .ItemsGrid {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    padding-top: 2%;
+  }
+  .ItemsGrid div {
+    width: 75%;
+    font-size: 17px;
+  }
+  .ItemsGrid img {
+    width: 75%;
+    height: 75%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
